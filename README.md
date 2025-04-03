@@ -69,6 +69,12 @@ Herramientas → Administrador de paquetes NuGet → Restaurar paquetes
 
 ---
 
+## 🧪 Ejecutable
+
+Puedes descargar la versión más reciente de la aplicación aquí:
+👉 [Descargar Rick and Morty Viewer (.exe)](https://github.com/Luixij/Rick-and-Morty-WPF-Viewer/releases/tag/v1.0)
+
+
 ## 🌐 API REST - Detalles Técnicos
 
 ### 🔑 Autenticación
