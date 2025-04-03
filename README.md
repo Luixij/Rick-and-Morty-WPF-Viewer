@@ -87,14 +87,11 @@ No es necesaria. La API es pública y gratuita.
 ## 📸 Capturas
 
 **Pantalla principal:**
-> ![Pantalla principal](assets/pantalla-principal.png)
-
-**Detalle de personaje:**
-> ![Detalle de personaje](assets/detalle-personaje.png)
 > ![Pantalla principal](WpfApp_ejer4/assets/pantalla-principal.png)
 
 **Detalle de personaje:**
 > ![Detalle de personaje](WpfApp_ejer4/assets/detalle-personaje.png)
+
 
 ---
 
