@@ -1,0 +1,36 @@
+﻿<Window x:Class="WpfApp_ejer4.CharacterDetailWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Detalles del personaje" Height="520" Width="500" ResizeMode="NoResize">
+
+    <Grid Margin="20">
+        <StackPanel HorizontalAlignment="Center">
+
+            <!-- Imagen con bordes redondeados y recorte -->
+            <Border Width="150" Height="150" CornerRadius="20" BorderThickness="2" BorderBrush="#D1D1D1"
+                    HorizontalAlignment="Center" Margin="10">
+                <Image Name="CharacterImage" Width="150" Height="150" Stretch="Fill" ClipToBounds="True">
+                    <Image.Clip>
+                        <RectangleGeometry Rect="0,0,150,150" RadiusX="20" RadiusY="20"/>
+                    </Image.Clip>
+                </Image>
+            </Border>
+
+            <!-- Nombre del personaje -->
+            <TextBlock Name="CharacterName" FontSize="22" FontWeight="Bold" TextAlignment="Center" Margin="5"/>
+
+            <!-- Contenedor de descripción con Scroll si es necesario -->
+            <ScrollViewer Height="150" Width="400" VerticalScrollBarVisibility="Auto">
+                <TextBlock Name="CharacterDescription" TextWrapping="Wrap" TextAlignment="Center" Padding="10"/>
+            </ScrollViewer>
+
+            <!-- Botón con más margen superior -->
+            <Button Content="Cerrar" Width="120" Height="40" 
+                    HorizontalAlignment="Center" Margin="20,30,20,0" Click="CloseButton_Click"/>
+
+        </StackPanel>
+    </Grid>
+</Window>
